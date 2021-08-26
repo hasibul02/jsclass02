@@ -1,0 +1,44 @@
+
+
+.animation-content{
+    min-height: 50vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,16,62,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation-content h1{
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    width:0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right:4px solid black;
+    animation:text 4s infinite;
+
+}
+
+@keyframes text{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width:35ch;
+    }
+
+}
+.img-ml{
+    margin-left: 100px;
+}
+
+.jsstart{
+    margin: 50px 0;
+}
+.box01{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(130, 235, 25);
+    margin-top:20px;
+}
